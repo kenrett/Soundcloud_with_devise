@@ -18,7 +18,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'omniauth-soundcloud', '~> 1.0.0'
 
-gem 'devise'
+gem 'devise', '3.0.0.rc'
 
 group :doc do
   gem 'sdoc', require: false

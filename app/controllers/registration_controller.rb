@@ -17,6 +17,7 @@ class RegistrationController < ApplicationController
     @contact.mobile = params[:contact][:mobile]
     @contact.address = params[:contact][:address]
     @member.valid?
+    
     if @member.errors.blank?
 
       @member.save
